@@ -35,6 +35,19 @@ class HashTable {
     }
     return undefined;
   }
+
+  keys() {
+    let allKeys = [];
+    for (let i = 0; i < this.data.length; i++) {
+      // Check if spot has a value
+      if (this.data[i]) {
+        for (let j = 0; j < this.data[i].length; j++) {
+          allKeys.push(this.data[i][j][0]);
+        }
+      }
+    }
+    return allKeys;
+  }
 }
 
 // Final Result for HashTable =>  [ ["name", "Ahmed"], ["age": 27] ]
@@ -44,11 +57,15 @@ const hashTable = new HashTable();
 hashTable.set('name', 'Ahmed');
 hashTable.set('age', 27);
 hashTable.set('city', 'Ismailia');
+hashTable.set('job', 'Software Engineer');
 
 console.log(hashTable.data);
 
 // Get data from Hash Table
-console.log(hashTable.get('name'));
-console.log(hashTable.get('age'));
-console.log(hashTable.get('city'));
+console.log('get name :', hashTable.get('name'));
+console.log('get age :', hashTable.get('age'));
+console.log('get city :', hashTable.get('city'));
 console.log(hashTable.get('address'));
+
+// Get all hash table keys
+console.log('Hash table keys: ', hashTable.keys());
