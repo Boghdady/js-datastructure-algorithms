@@ -3,6 +3,7 @@ class HashTable {
     this.data = new Array(size);
   }
 
+  // O(1)
   _hash(key) {
     let hash = 0;
     for (let i = 0; i < key.length; i++) {
@@ -11,6 +12,7 @@ class HashTable {
     return hash;
   }
 
+  // O(1)
   set(key, value) {
     // Create an index between 0 to 6 if the array size is 7
     const index = this._hash(key);
@@ -23,6 +25,7 @@ class HashTable {
     return this;
   }
 
+  // O(1) , but in rarely cases may be collision happen so the big-o will be O(n)
   get(key) {
     const index = this._hash(key);
     // check if there is data in specific spot
