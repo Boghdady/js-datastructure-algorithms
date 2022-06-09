@@ -52,7 +52,6 @@ class HashTable {
     return allKeys;
   }
 }
-
 // Final Result for HashTable =>  [ ["name", "Ahmed"], ["age": 27] ]
 const hashTable = new HashTable();
 
