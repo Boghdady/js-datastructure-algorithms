@@ -1,0 +1,15 @@
+# Hash Tabels = Maps = In ordered maps  = disctionary = Objects
+- Object is type of Hash Tabels
+
+# How Hash Tabels Works ?
+- Hash Tabels depend on "Key" and "Value" pairs
+- Uses key to store the values but arrays uses "indexes" to store values
+- key go to Hash function and the hash function 
+
+
+# Hash Table Collision:
+- Store the new value, key pair in the same spot
+
+# There are different ways for dealing with Hash Table Collision:
+1. Separate chaining:  means store the same key and values in the same spot on memory
+2. linear probing : means check if the spot in memory is not empty the go to the next spot and check if is empty.
