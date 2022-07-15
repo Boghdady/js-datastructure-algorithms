@@ -5,7 +5,7 @@
 /**
  *
  * @param n number of items that will display
- * big(O) = O(n)
+ * Big-O = O(n)
  */
 function fibonacci(n) {
   const fib = [0, 1];
