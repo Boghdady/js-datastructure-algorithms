@@ -17,5 +17,3 @@ console.log(recursiveFibonacci(6)); // 8
 // 1) n = 6 =>  recursiveFibonacci(5) + recursiveFibonacci(4)
 // 2) n = 4 => recursiveFibonacci(3) + recursiveFibonacci(2)
 // 3) n = 2 => recursiveFibonacci(2) = 2
-
-
