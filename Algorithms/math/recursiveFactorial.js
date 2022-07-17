@@ -14,9 +14,9 @@ console.log(recursiveFactorial(4));
 console.log(recursiveFactorial(5));
 
 // Tracing
-// 1) n= 5, 5 * recursiveFactorial(4)
-// 2) n= 4, 4 * recursiveFactorial(3)
-// 3) n= 3, 3 * recursiveFactorial(2)
-// 4) n= 2, 2 * recursiveFactorial(1)
-// 5) n= 1, 1 * recursiveFactorial(0)
-// 6) n= 0, recursiveFactorial(0) = 1
+// 1) recursiveFactorial(5) => 5 * recursiveFactorial(4)
+// 2) recursiveFactorial(4) =>  4 * recursiveFactorial(3)
+// 3) recursiveFactorial(3) =>  3 * recursiveFactorial(2)
+// 4) recursiveFactorial(2) =>  2 * recursiveFactorial(1)
+// 5) recursiveFactorial(1) => 1 * recursiveFactorial(0)
+// 6) recursiveFactorial(0) = return 1
