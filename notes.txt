@@ -13,3 +13,10 @@
 # There are different ways for dealing with Hash Table Collision:
 1. Separate chaining:  means store the same key and values in the same spot on memory
 2. linear probing : means check if the spot in memory is not empty the go to the next spot and check if is empty.
+
+# Sorting algorithms:
+1- Bubble sort
+2- Insertion sort
+3- Quick sort
+4- Merge sort
+
