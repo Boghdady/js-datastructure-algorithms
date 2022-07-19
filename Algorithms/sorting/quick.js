@@ -7,11 +7,17 @@
 // 2) put everything that's smaller than the pivot into a "left" array and everything that greater the pivot into a "right" array
 // Repeat the process for the individual "left" and "right" arrays till you have an array of length 1, which is sorted by definition
 
+// Big-O
+// Worst case => O(n) = O(n^2) that happen when array is already sorted
+// Average case => O(n) = O(nlogn)
+
+// not the best solution for space complexity
 function quickSort(arr) {
   // base case
   if (arr.length < 2) {
     return arr;
   }
+
   let pivot = arr[arr.length - 1];
   let left = [];
   let right = [];
