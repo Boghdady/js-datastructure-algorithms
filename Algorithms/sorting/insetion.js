@@ -18,3 +18,5 @@ function insertionSort(arr) {
 
 console.log(insertionSort([-6, 20, 8, -2, 4]));
 console.log(insertionSort([-6, 18, 5, -4, 3]));
+
+
