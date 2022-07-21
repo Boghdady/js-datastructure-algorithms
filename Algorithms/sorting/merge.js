@@ -13,6 +13,7 @@
 // make a comparison
 // [-6, -2, 4, 8, 20]
 
+// Big-o = O(n) = O(nlogn)
 function mergeSort(arr) {
   // Base case
   if (arr.length < 2) {
